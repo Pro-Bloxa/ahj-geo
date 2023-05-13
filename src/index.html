@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- <link rel="stylesheet" href="./css/style.css"> -->
+  <title>verification widget</title>
+</head>
+
+<body>
+  <section class="widget-container">
+    <h1 class="widget__title">Timeline</h1>
+    <div class="list"></div>
+    <footer class="footer">
+      <form class="form">
+        <input class="form-input" type="text" name="input">
+      </form>
+    </footer>
+
+    <div class="modal hidden">
+      <div class="modal-text">
+        <p class="text">Что-то пошло не так...</p>
+        <p class="text">К сожалению, нам не удалось определить Ваше местоположение. Пожалуйста, дайте разрешение на
+          использование
+          геолокации либо введите координаты вручную.</p>
+        <p class="text">Широта и долгота через запятую</p>
+        <form class="modal-form">
+          <input type="text" class="modal-input" name="modal">
+          <div class="buttons">
+            <button class="reset" type="reset">Отмена</button>
+            <button class="submit" type="submit">Ok</button>
+
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
